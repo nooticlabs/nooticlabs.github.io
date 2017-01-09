@@ -1,0 +1,65 @@
+<!-- Footer Start -->
+<footer id="contact" class="page-footer default_color scrollspy">
+<div class="container">  
+<div class="row">
+
+    <div class="col l6 s12">
+      <h5 class="white-text">Feedback</h5>
+      <p class="grey-text text-lighten-4">Berikan saran dan masukan.</p>
+		<div class="card-panel hoverable m4">
+            <form action="https://formspree.io/suchaimi@gmail.com" method="POST">
+            <input class="hidden" type="hidden" name="_next" value="{{ site.url }}/thanks.html">
+            <div class="input-field">
+             	<input name="username" id="username" type="text" class="validate">
+             	<label for="username">Username</label>
+            </div>
+            <div class="input-field">
+             	<input name="email" id="email" type="email" class="validate">
+             	<label for="email">Email</label>
+            </div>
+            <div class="input-field">
+             	<input name="objek" id="objek" type="text" class="validate">
+             	<label for="objek">Object</label>
+            </div>
+            <div class="input-field">
+      			<textarea name="message" id="textarea1" class="materialize-textarea"></textarea>
+	      		<label for="textarea1">Message</label>
+        	</div>
+			<br>
+            <button class="btn waves-effect waves-light default_color btn-flat white-text" type="submit">Submit<i class="mdi-content-send right white-text"></i>
+            </button>
+            <form>
+      	</div>
+    </div>
+
+    <div class="col l3 s12">
+      <h5 class="white-text">Post Label</h5>
+      {% for tag in site.posts %}
+	  <div class="chip tags">
+    	<i class="mdi-content-flag"></i>  {{ tag.tags }}
+  	  </div>  
+      {% endfor %}
+    </div>
+
+    <div class="col l3 s12">
+      <h5 class="white-text">Social Networking</h5>
+      <div class="sosial">
+      <ul>
+        <li><a class="white-text" href="https://www.facebook.com/"><img src="img/facebook.png" width="50px" height="50px"></img></a></li>
+        <li><a class="white-text" href="https://twitter.com/"><img src="img/twitter.png" width="50px" height="50px"></img></a></li>
+        <li><a class="white-text" href="https://plus.google.com/u/0/"><img src="img/googleplus.png" width="50px" height="50px"></img></a></li>
+        <li><a class="white-text" href="https://plus.google.com/u/0/"><img src="img/youtube.png" width="50px" height="50px"></img></a></li>
+      </ul>
+      </div>
+    </div>
+    
+</div>
+</div>
+
+    <div class="footer-copyright default_color">
+	    <div class="container">
+	    	© 2017 Copyright Nooticlabs.
+	    </div>
+    </div>
+</footer>
+<!-- Footer End -->

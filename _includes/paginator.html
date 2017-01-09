@@ -1,0 +1,13 @@
+<!-- Pager Start -->
+<br>		
+<div class="row">
+  <div class="col s12 m12 l12">
+	{% if page.previous %}
+	<a href="{{ page.previous.url }}" class="btn-floating btn-small btn-flat default_color left tags"><i class="mdi-navigation-arrow-back"></i><span>Prev</span></a>
+	{% endif %}
+	{% if page.next %}
+	<a href="{{ page.next.url }}" class="btn-floating btn-small btn-flat default_color right tags"><i class="mdi-navigation-arrow-forward"></i><span>Next</span></a>
+	{% endif %}
+  </div>
+</div>
+<!-- Pager End -->

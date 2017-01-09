@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Nooticlabs | {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="desciption" content="Kudu Kode | {% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <base href="{{ site.url }}">
+  <link rel="shortcut icon" href="img/favicon.png">
+  <!-- CSS  -->
+  <link href="css/materialize.css" type="text/css" rel="stylesheet">
+  <link href="css/style.css" type="text/css" rel="stylesheet" >
+  <!-- Css End -->
+</head>
+  <body id="top" class="scrollspy">
+  {{ content }}
+  <!--  Scripts-->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="js/modernizr.js"></script>
+  <script id="dsq-count-scr" src="//nooticlabs.disqus.com/count.js" async></script>
+  <!-- Scripts End -->
+  </body>
+</html>
