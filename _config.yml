@@ -32,16 +32,16 @@ comments: true
 
 links: 
   - title: Android Tutorial
-    url: /kat/android
-    img: /img/04.jpg
+    url: kat/android
+    img: img/04.jpg
     cat: android
     des: Belajar pemrograman android dari awal sampai mahir
   - title: Laravel Tutorial
-    url: /kat/laravel
-    img: /img/04.jpg
+    url: kat/laravel
+    img: img/04.jpg
     cat: laravel
   - title: Java Tutorial
-    url: /kat/laravel
-    img: /img/04.jpg
+    url: kat/laravel
+    img: img/04.jpg
     cat: java
 
