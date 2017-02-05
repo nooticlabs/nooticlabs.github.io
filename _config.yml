@@ -17,7 +17,7 @@ title: Nooticlabs
 email: suchaimi.afif@gmail.com
 description: "Belajar coding dengan cara yang asik dan menyenangkan"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://suchaimi.github.io/nooticlabs/" # the base hostname & protocol for your site
+url: "http://127.0.0.1:4000" # the base hostname & protocol for your site
 twitter_username: suchaimi
 github_username:  suchaimi
 
@@ -35,13 +35,19 @@ links:
     url: /kat/android
     img: /img/04.jpg
     cat: android
-    des: Belajar pemrograman android dari awal sampai mahir
+    des: Belajar pemrograman android dari awal sampai mahir.
   - title: Laravel Tutorial
     url: /kat/laravel
     img: /img/04.jpg
     cat: laravel
+    des: Belajar pemrograman laravel dari awal sampai mahir.
   - title: Java Tutorial
     url: /kat/laravel
     img: /img/04.jpg
     cat: java
-
+    des: Belajar pemrograman java dari awal sampai mahir.
+  - title: JavaScript Tutorial
+    url: /kat/javascript
+    img: /img/04.jpg
+    cat: javascript
+    des: Belajar pemrograman javascript dari awal sampai mahir.

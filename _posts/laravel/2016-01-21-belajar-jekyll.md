@@ -3,6 +3,7 @@ layout: post
 title: Belajar Laravel
 date: 2016-01-21
 tags: laravel
+color: cyan
 author: suchaimi
 categories: laravel
 comments: true

@@ -3,10 +3,10 @@ layout: post
 title: Belajar jekyll
 date: 2016-01-21
 tags: php
+color: orange
 author: suchaimi
 categories: android
 comments: true
-color: grey
 ---
 
 Once you’ve finished building your Jekyll site you’ll need to decide where and how you want to deploy it. Since Jekyll builds static content you can serve it almost anywhere. There are no server-side dependencies, CMS installations, database administrators, or server stacks to worry about. If the server can handle HTML, CSS, and JavaScript, it can serve your site. With that in mind let’s take a look at some of the most common options for deploying Jekyll sites.

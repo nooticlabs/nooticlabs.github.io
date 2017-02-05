@@ -35,8 +35,8 @@
     <div class="col l3 s12">
       <h5 class="white-text">Post Label</h5>
       {% for tag in site.posts %}
-	  <div class="chip tags">
-    	<i class="mdi-content-flag"></i>  {{ tag.tags }}
+	    <div class="chip tags">
+    	   <i class="mdi-content-flag"></i> {{ tag.tags }} ({{ tag.tags.size }})
   	  </div>  
       {% endfor %}
     </div>
@@ -58,7 +58,7 @@
 
     <div class="footer-copyright default_color">
 	    <div class="container">
-	    	© 2017 Copyright Nooticlabs.
+	    	© 2017 Nooticlabs.
 	    </div>
     </div>
 </footer>

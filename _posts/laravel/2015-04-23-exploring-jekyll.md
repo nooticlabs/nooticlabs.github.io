@@ -3,6 +3,7 @@ layout: post
 title: Exploring Markdown Jekyll Site Templating
 date: 2016-01-21
 tags: laravel
+color: green
 author: suchaimi
 categories: laravel
 comments: true
