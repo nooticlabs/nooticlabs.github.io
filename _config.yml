@@ -17,11 +17,8 @@ title: Nooticlabs
 email: suchaimi.afif@gmail.com
 description: "Belajar coding dengan cara yang asik dan menyenangkan"
 baseurl: "" # the subpath of your site, e.g. /blog
-<<<<<<< HEAD
-url: "http://127.0.0.1:4000" # the base hostname & protocol for your site
-=======
-url: "https://nooticlabs.github.io" # the base hostname & protocol for your site
->>>>>>> 62c613091b970265544f275e788441a575557a68
+url: "nooticlabs.ml" # the base hostname & protocol for your site
+# url: "nooticlabs.ml" # the base hostname & protocol for your site
 twitter_username: suchaimi
 github_username:  suchaimi
 
