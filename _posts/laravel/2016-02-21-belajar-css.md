@@ -12,6 +12,25 @@ Once you’ve finished building your Jekyll site you’ll need to decide where a
 
 ###FTP/SFTP
 
+`​``javascript
+$("li").click(function(){
+    $(this).toggleClass("completed");
+});
+
+$("span").click(function(e){
+    $(this).parent().fadeOut(function(){
+        $(this).remove();
+    });
+    e.stopPropagation();
+});
+
+$("input[type='text']").on("keypress",function(event){
+    if(event.which === 13){
+        console.log("hello");
+    }
+});
+`​``
+
 Almost all hosting companies allow you to upload content via FTP or SFTP. Simply use a FTP client (such as [Filezilla](https://filezilla-project.org/ "Filezilla")) to upload the contents of your **_site** directory to the **www** or **public_html** directory of your hosting server. One downside to this method is the manual nature of updating your site. When files change you’ll need to manually overwrite your remote files. For larger sites this can be time-consuming and prone to errors. 
 
 One option for enhancing FTP deployment is to use a Git-integrated FTP client like [git-ftp](https://github.com/git-ftp/git-ftp "git-ftp"). This allows you to bring version control into your deployment workflow and only upload the files that have changed.
