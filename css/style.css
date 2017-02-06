@@ -1,15 +1,3 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By Andrea Galanti
- * Thanks for MaterializeCSS.com
- * Codyhouse.co
- */
-
- @import url("syntax-highlighting.css");
-
 .card-colored-border{
   padding: 20px;
   margin: 0.5rem 0 1rem 0;
