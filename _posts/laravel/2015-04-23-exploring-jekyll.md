@@ -14,6 +14,25 @@ The first step to exploring Jekyll is to create a new Jekyll site, serve it, and
 
 ###Building a new site
 
+{% highlight javascript %}
+$("li").click(function(){
+    $(this).toggleClass("completed");
+});
+
+$("span").click(function(e){
+    $(this).parent().fadeOut(function(){
+        $(this).remove();
+    });
+    e.stopPropagation();
+});
+
+$("input[type='text']").on("keypress",function(event){
+    if(event.which === 13){
+        console.log("hello");
+    }
+});
+{% endhighlight %}
+
 To build a new site, create a directory named `practice` and navigate there in Terminal or whichever command line interface you’re using. Once there run the following commands:
 
 {% highlight bash %}

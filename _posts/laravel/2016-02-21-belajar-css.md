@@ -12,7 +12,8 @@ Once you’ve finished building your Jekyll site you’ll need to decide where a
 
 ###FTP/SFTP
 
-`​``javascript
+
+{% highlight javascript %}
 $("li").click(function(){
     $(this).toggleClass("completed");
 });
@@ -29,7 +30,7 @@ $("input[type='text']").on("keypress",function(event){
         console.log("hello");
     }
 });
-`​``
+{% endhighlight %}
 
 Almost all hosting companies allow you to upload content via FTP or SFTP. Simply use a FTP client (such as [Filezilla](https://filezilla-project.org/ "Filezilla")) to upload the contents of your **_site** directory to the **www** or **public_html** directory of your hosting server. One downside to this method is the manual nature of updating your site. When files change you’ll need to manually overwrite your remote files. For larger sites this can be time-consuming and prone to errors. 
 

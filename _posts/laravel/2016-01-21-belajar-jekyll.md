@@ -11,6 +11,25 @@ comments: true
 
 Getting started with Jekyll is relatively simple, although perhaps not *quite* as simple as their documentation would have you believe. There are a number of dependencies and requirements you have to satisfy before installing and using Jekyll. Let’s explore those dependencies and talk about the process of getting started with Jekyll.
 
+{% highlight javascript %}
+$("li").click(function(){
+    $(this).toggleClass("completed");
+});
+
+$("span").click(function(e){
+    $(this).parent().fadeOut(function(){
+        $(this).remove();
+    });
+    e.stopPropagation();
+});
+
+$("input[type='text']").on("keypress",function(event){
+    if(event.which === 13){
+        console.log("hello");
+    }
+});
+{% endhighlight %}
+
 First, let’s cover what you’ll need to have installed before you can run Jekyll. As Jekyll is a Ruby app it helps if you’re on a Unix, Linux, or OS X system. According to Jekyll you *can* get Jekyll to run on Windows, it just requires some work. I’ve never tried it, but [you can read more about the process here](http://jekyll-windows.juthilo.com/ "jekyll for windows") if you’re interested.
 
 You’ll also need the latest versions of [Ruby](https://www.ruby-lang.org "ruby") and [Ruby Gems](https://rubygems.org/ "ruby gems"). One of the easiest ways to ensure you’re using the right version of Ruby is to use [RVM](https://rvm.io "Ruby version manager"), a Ruby version manager. It can be a bit of a pain to setup, but once installed making sure you have the latest version is as easy as typing the following into Terminal (where '2.2.3' is the latest version number):
