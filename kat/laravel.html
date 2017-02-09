@@ -1,15 +1,13 @@
 ---
 layout: suchaimi
 ---
-
 {% include header.html %}
-
 <div class="container">
       <div class="row">
           <div class="col s12 m12">
                <div class="card">
                   <div class="card-image">
-                    <img class="activator" src="img/banner.png">
+                    <img class="activator" src="/img/banner.png">
                   </div>
                   <div class="card-content">
                     <span class="card-title activator grey-text text-darken-4">Laravel Tutorial ( {{ site.categories['laravel'].size }} )</span>
@@ -17,8 +15,6 @@ layout: suchaimi
           </div>
         </div>
      </div>
-  	
-
   	<div class="row">
          <div class="col s12 m12 l8">
             <div class="collection content">
@@ -30,8 +26,6 @@ layout: suchaimi
                  {% endfor %}
               </div>
          </div>
-        
-
         <div class="col s12 m12 l4">
 			<div class="col s12 m6 l12">
             {% include newsletter.html %}
@@ -40,12 +34,7 @@ layout: suchaimi
             {% include newsletter.html %}
         	</div>
         </div> 
-
    	</div> 
-
  </div>
  
-
-
-
 {% include footer.html %}
